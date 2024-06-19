@@ -210,3 +210,101 @@ main {
         left: 100%;
     }
 }
+
+@media screen and (max-width: 1030px) {
+
+    .home {
+        height: 65vh;
+        flex-direction: column;
+        gap: 0px;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .infos {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .perfil {
+        max-width: 200px;
+    }
+
+    .right-info {
+        text-align: center;
+    }
+
+    main {
+        gap: 200px;
+    }
+
+    .item {
+        width: 300px;
+        height: var(--height);
+        animation: autoRun 15s linear infinite;
+        animation-delay: 1s;
+    }
+
+    .item2 {
+        animation-delay: 4s;
+    }
+
+    .item3 {
+        animation-delay: 7s;
+    }
+
+    .item4 {
+        animation-delay: 10s;
+    }
+
+    .item5 {
+        animation-delay: 13s;
+    }
+
+    .item6 {
+        animation-delay: 16s;
+    }
+
+    .item7 {
+        animation-delay: 19s;
+    }
+
+    .item8 {
+        animation-delay: 22s;
+    }
+
+    .container.reverse .item {
+        animation-delay: 1s;
+        animation: reverseRun 15s linear infinite;
+    }
+
+    .container.reverse .item2 {
+        animation-delay: 3s;
+    }
+
+    .container.reverse .item3 {
+        animation-delay: 6s;
+    }
+
+    .container.reverse .item4 {
+        animation-delay: 9s;
+    }
+
+    .container.reverse .item5 {
+        animation-delay: 12s;
+    }
+
+    .container.reverse .item6 {
+        animation-delay: 15s;
+    }
+
+    .container.reverse .item7 {
+        animation-delay: 18s;
+    }
+
+    .container.reverse .item8 {
+        animation-delay: 21s;
+    }
+}
