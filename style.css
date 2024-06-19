@@ -140,6 +140,7 @@ main {
     left: 100%;
     animation: autoRun 16s linear infinite;
     animation-delay: var(--delay);
+    cursor: pointer;
 
     img {
         width: 100%;
@@ -150,6 +151,15 @@ main {
 .container.reverse .item {
     animation: reverseRun 16s linear infinite;
     animation-delay: var(--delay);
+}
+
+.container:hover .item {
+    animation-play-state: paused;
+    filter: grayscale(1);
+}
+
+.container .item:hover {
+    filter: grayscale(0);
 }
 
 @keyframes autoRun {
