@@ -308,3 +308,35 @@ main {
         animation-delay: 21s;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .carrossel {
+        flex-direction: column;
+        position: static;
+    }
+
+    .container {
+        width: 100vw;
+        height: auto;
+    }
+
+    .item {
+        width: 200px;
+        position: static;
+        animation: none;
+
+        img {
+            width: 100%;
+            border-radius: 30px;
+        }
+    }
+
+    .container.reverse .item {
+        animation: none;
+    }
+
+    .container:hover .item {
+        filter: grayscale(0);
+    }
+}
