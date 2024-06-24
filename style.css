@@ -362,6 +362,10 @@ main {
         margin: 0 auto;
         align-items: center;
         justify-content: center;
+        padding: 100px 0px 0px;
+    }
+
+    .carrossel:last-child {
         padding: 0px;
     }
 
